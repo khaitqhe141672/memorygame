@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/c386bc4f78.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type='text/css' media='screen' href='assets/css/index.css'/>
+    <link rel="stylesheet" type='text/css' media='screen' href='assets/css/style.css'/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Nunito+Sans:wght@400;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Memory Game</title>
+</head>
+<body>
+
+<div id="start-game">
+    <h1>Memomry Game</h1>
+    <div class="level-container">
+        <p>Chọn Mức Chơi</p>
+        <div class="select-container">
+            <img src="assets/img/Lovepik_com-401497478-gamepad.png"/>
+            <select style="text-align: center; font-weight: bold;" id="level-option">
+                <option value="1">Dễ</option>
+                <option value="2">Trung Bình</option>
+                <option value="3">Khó</option>
+            </select>
+        </div>
+        <button id="btn-start-game">Bắt đầu</button>
+    </div>
+</div>
+
+<div id="game">
+    <div class="game">
+        <div class="controll">
+            <h1>Memory game</h1>
+            <div class="play-time" style="text-align: center;">
+                <div class="img-clock" style="padding-top: 15px;">
+                    <img src="assets/img/Lovepik_com-401062779-clocks-and-watches.png">
+                </div>
+                <div class="timer">
+                </div>
+            </div>
+            <div class="play-moveItem">
+                <h3>Điểm Số</h3>
+                <span id="moves"></span>
+            </div>
+            <div class="play-restart" style="text-align: center; padding-top: 15px;">
+                <button id="btnRestart" style="background-color: #ffffff; border: 1px solid #ffffff;" type="button"><i
+                        class="fas fa-power-off"></i></button>
+            </div>
+        </div>
+        <div class="game-items">
+            <div class="item">
+                <ul class="deck" id="card-deck">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="end-game">
+    <div class="info">
+        <h1>Kết thúc</h1>
+        <p>Chúc mừng bạn đã hoàn thành game trong</p>
+        <div class="box">
+            <div class="time-box">
+                <img src="assets/img/image_processing20200509-30357-1ndo5eg.gif">
+            </div>
+        </div>
+        <div class="btns">
+            <button id="btn-play-again">Chơi lại</button>
+            <button id="btn-reload">Màn Hình Chính</button>
+        </div>
+    </div>
+</div>
+
+
+<script src="assets/js/icon.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "icons": [
+    {
+      "id": 1,
+      "name": "<i class=\"fa fa-diamond\"></i>"
+    },
+    {
+      "id": 2,
+      "name": "<i class=\"fa fa-paper-plane-o\"></i>"
+    },
+    {
+      "id": 3,
+      "name": "<i class=\"fa fa-anchor\"></i>"
+    },
+    {
+      "id": 4,
+      "name": "<i class=\"fa fa-bolt\"></i>"
+    },
+    {
+      "id": 5,
+      "name": "<i class=\"fa fa-cube\"></i>"
+    },
+    {
+      "id": 6,
+      "name": "<i class=\"fa fa-leaf\"></i>"
+    },
+    {
+      "id": 7,
+      "name": "<i class=\"fa fa-bicycle\"></i>"
+    },
+    {
+      "id": 8,
+      "name": "<i class=\"fa fa-bomb\"></i>"
+    }
+  ]
+}
